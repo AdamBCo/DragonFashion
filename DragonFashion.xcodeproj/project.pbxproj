@@ -14,6 +14,7 @@
 		669A385B19E43CB800475719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669A385A19E43CB800475719 /* Images.xcassets */; };
 		669A385E19E43CB800475719 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 669A385C19E43CB800475719 /* LaunchScreen.xib */; };
 		669A386A19E43CB800475719 /* DragonFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 669A386919E43CB800475719 /* DragonFashionTests.m */; };
+		669A387B19E449FE00475719 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = 669A387A19E449FE00475719 /* Dragon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		669A386319E43CB800475719 /* DragonFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669A386819E43CB800475719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		669A386919E43CB800475719 /* DragonFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonFashionTests.m; sourceTree = "<group>"; };
+		669A387919E449FE00475719 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		669A387A19E449FE00475719 /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		669A384119E43CB800475719 = {
 			isa = PBXGroup;
 			children = (
+				669A387919E449FE00475719 /* Dragon.h */,
+				669A387A19E449FE00475719 /* Dragon.m */,
 				669A384C19E43CB800475719 /* DragonFashion */,
 				669A386619E43CB800475719 /* DragonFashionTests */,
 				669A384B19E43CB800475719 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				669A385619E43CB800475719 /* ViewController.m in Sources */,
 				669A385319E43CB800475719 /* AppDelegate.m in Sources */,
+				669A387B19E449FE00475719 /* Dragon.m in Sources */,
 				669A385019E43CB800475719 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				669A386F19E43CB800475719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		669A387019E43CB800475719 /* Build configuration list for PBXNativeTarget "DragonFashionTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				669A387219E43CB800475719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
