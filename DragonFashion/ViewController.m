@@ -18,16 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    Dragon *puffDragon = [[Dragon alloc] init];
-    puffDragon.name = @"Puff";
+    Dragon *puffDragon = [[Dragon alloc] initWithName:@"Puff"];
     puffDragon.signatureClothingItem = @"Hat";
-    Dragon *smaugDragon = [[Dragon alloc] init];
-    smaugDragon.name = @"Smaug";
+    Dragon *smaugDragon = [[Dragon alloc] initWithName:@"Smaug"];
     smaugDragon.signatureClothingItem = @"Fedora";
-    Dragon *falcorDragon = [[Dragon alloc] init];
-    falcorDragon.name = @"Falcor";
+    Dragon *falcorDragon = [[Dragon alloc] initWithName:@"Falcor"];
     falcorDragon.signatureClothingItem = @"Fur Coat";
     self.dragons = [NSMutableArray arrayWithObjects:puffDragon, smaugDragon, falcorDragon, nil];
+    
+    for (Dragon *dragon in self.dragons) {
+        NSLog(@"%@",dragon.name);
+    }
    
 }
 

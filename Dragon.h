@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Dragon : NSObject
-@property NSString *name;
-@property NSString *signatureClothingItem;
+@property (readonly) NSString *name;
+@property (nonatomic) NSString *signatureClothingItem;
+
+- (instancetype)initWithName:(NSString *)name;
 
 @end
